@@ -16,24 +16,18 @@ body {
 
 /*Diseño de columnas*/
 
-.column-1 {
-    width: 100%;
-    float: left;
-    background-color: red;
-    border: 10px;
-}
-
 .column-2 {
     width: 50%;
     float: left;
-    background-color: green;
+    background-color: white;
     border: 10px;
 }
 
 .column-3 {
     width: 33.33%;
     float: left;
-    background-color: blue;
+    background-color: black;
+    color: white;
     border: 10px;
 }
 
@@ -44,42 +38,14 @@ body {
     border: 10px;
 }
 
-.column-6 {
-    width: 16.666666667%;
-    float: left;
-    background-color: gray;
-    border: 10px;
-}
-
 @media only screen and (max-width: 600px) {
-    .column-1 {
-        width: 100%;
-        float: left;
-        background-color: red;
-        border: 10px;
-    }
     .column-2 {
-        width: 50%;
-        float: left;
-        background-color: green;
-        border: 10px;
-    }
-    .column-3 {
         width: 100%;
-        float: left;
-        background-color: blue;
-        border: 10px;
     }
     .column-4 {
         width: 50%;
-        float: left;
-        background-color: orange;
-        border: 10px;
     }
-    .column-6 {
-        width: 33.33%;
-        float: left;
-        background-color: gray;
-        border: 10px;
+    .column-3 {
+        width: 100%;
     }
 }
